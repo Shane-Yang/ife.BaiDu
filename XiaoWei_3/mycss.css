@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-color:#999;
+    
+}
+#main{
+    padding: 20px;
+    background-color: #eee;
+    border-color:#999;
+    border-style:groove;
+    overflow: auto;
+}
+#left{
+    width: 180px;
+    height:auto;
+    border-style: groove;
+    float:left;
+}
+#left img{
+    width:80px;
+    height:80px;
+    float:left;
+
+}
+#left p{
+    position: relative;
+    top:26px;
+    right:-20px;
+}
+#center{
+    margin: 0 140px 0 200px;
+    height:auto;
+    border-style: groove;
+}
+#right{
+    width:120px;
+    float: right;
+    height:auto;
+    border-style: dashed;
+}
+#right img{
+    margin:20px;
+    width:80px;
+    height:80px;
+    display: block;
+}
