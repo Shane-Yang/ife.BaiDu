@@ -7,15 +7,21 @@
 #main{
     padding: 20px;
     background-color: #eee;
-    border-color:#999;
-    border-style:groove;
-    overflow: auto;
+    border:1px solid #999;
+    position: relative;
+    overflow:hidden;
+    height: auto;
+}
+div{
+    background: #fff;
+    border:1px solid #999;
 }
 #left{
     width: 180px;
     height:auto;
-    border-style: groove;
+    position: relative;
     float:left;
+    overflow: hidden;
 }
 #left img{
     width:80px;
@@ -29,15 +35,14 @@
     right:-20px;
 }
 #center{
-    margin: 0 140px 0 200px;
+    position:absolute;
+    margin: 0 160px 0 200px;
     height:auto;
-    border-style: groove;
+    overflow: hidden;
 }
 #right{
     width:120px;
     float: right;
-    height:auto;
-    border-style: dashed;
 }
 #right img{
     margin:20px;
