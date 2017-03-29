@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:黑体;
+}
+body{
+    background-color: black;
+}
+#head{
+    position: relative;
+    background: rgba(134,134,134,0.75);
+    margin:0 10%;
+}
+#head #logo{
+    width:50px;
+}
+#head ol{
+    position: absolute;
+    display: inline-block;
+    font-size: 15px;
+    color:white;
+    top:16px;
+    right: 0;
+}
+#head ol li{
+    margin: 0 5px;
+    display: inline-block;
+}
+#head ol li:hover{
+    color:bisque;
+}
+#bottom{
+    border:solid 2px #999;
+    background-color: #eee;
+    margin:0 10%;
+    overflow: auto;
+}
+#bottom div{
+    background-color:white;
+    padding:5px 10px;
+    margin: 5px;
+}
+div h1{
+    font-size:25px;
+    font-family:fantasy;
+    color:#888;
+}
+div h2{
+    font-size:18px;
+    font-family:fantasy;
+    color:#888;
+}
+div p{
+    text-indent: 2em;
+}
+#pic{
+    overflow:auto;
+}
+#pic p{
+    text-indent:0em;
+    text-align: center;
+}
+#pic div{
+    padding:8px;
+    float: left;
+    margin: 8px;
+}
+#bottom{
+    position: relative;
+}
+#left{
+    width:80%;
+    margin-right:220px; 
+}
+#right{
+    position: absolute; 
+    right:0; 
+    top:0;
+    width: 200px;
+}
+#right h1{
+    border-left: solid 3px #555;
+    padding:5px;
+}
+#right img{
+    width:200px;
+}
